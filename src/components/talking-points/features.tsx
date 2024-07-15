@@ -18,7 +18,7 @@ const Features = () => {
 
       <h2 className="text-lg font-bold">Pseudo-Klassen</h2>
       <br />
-      <p>Nützliche Utilities als State wie z.B. First oder last</p>
+      <p>Nützliche Utilities als State wie z.B. First oder Last</p>
       <div className="flex flex-col p-4">
         {[0, 1, 2, 3, 4].map((e) => (
           <Button className="m-8 first:mt-0 last:mb-0">{`Button ${e}`}</Button>
